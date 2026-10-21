@@ -1,0 +1,19 @@
+{
+  "name": "yahoo-fantasy-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal read-only Yahoo Fantasy Football MCP server",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/server.js --demo",
+    "auth": "node src/auth.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "fast-xml-parser": "^5.0.0",
+    "zod": "^3.25.0"
+  }
+}
